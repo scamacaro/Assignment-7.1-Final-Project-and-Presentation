@@ -1,0 +1,240 @@
+/* Sets the page appearance */
+body {
+    background-color: rgb(245, 245, 250); /* soft off-white background */
+    color: rgb(40, 40, 40); /* darker gray text for readability */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+}
+
+/* Header section styling */
+header {
+    margin: 5px;
+    text-align: center; /* centers all header content */
+}
+
+
+/* Main content area */
+main {
+    margin: 10px auto; /* keeps space around the content */
+    width: 80%;
+    max-width: 700px;
+    padding: 2px; /* spacing inside the text area */
+    flex: 1;
+}
+
+/* Navigation links styling */
+nav a {
+    background-color: rgb(230, 230, 250); /* soft lavender */
+    color: rgb(50, 50, 90); /* dark bluish text */
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: rgb(200, 200, 240); /* slightly darker lavender */
+}
+
+/* Spacing between form fields */
+form div {
+    margin-bottom: 10px;
+}
+
+/* Text inputs, number boxes, select dropdowns, and textareas */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200); /* light gray border */
+    font-size: 1rem; 
+    box-sizing: border-box; /* ensures padding doesn't expand width */
+    background-color: rgb(255, 255, 255); /* white input background */
+    color: rgb(40, 40, 40);
+}
+
+/* Submit buttons */
+input[type="submit"],
+button {
+    background-color: rgb(230, 230, 250); /* soft lavender */
+    color: rgb(50, 50, 90); /* dark bluish text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem; 
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit buttons */
+input[type="submit"]:hover,
+button:hover {
+    background-color: rgb(200, 200, 240); /* slightly darker lavender */
+}
+
+/* Validation message styling */
+.error {
+    color: rgb(200, 100, 50); /* soft orange for warning */
+    margin-bottom: 10px;
+}
+
+/* Centered welcome image on homepage */
+.welcome-image {
+    margin: 1px 0;
+    text-align: center; /* centers image horizontally */
+}
+
+/* Company description text */
+.company-description {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: rgb(60, 60, 60); /* softer dark gray for paragraphs */
+}
+
+/* Generic class to center text horizontally */
+.center-text {
+    text-align: center;
+}
+
+/* Secure container for dashboard pages */
+.secure-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+/* Login form container */
+.login-container {
+    width: 400px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Labels and inputs inside login form */
+.login-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs and buttons inside login form */
+.login-container input,
+.login-container button {
+    font-size: 1rem; 
+    padding: 8px; 
+}
+
+/* Center login buttons */
+.login-container button {
+    width: 120px; 
+    margin: 10px auto; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+}
+
+/* Login heading */
+.login-heading {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+/* Login messages */
+.login-message {
+    text-align: center; 
+    color: rgb(180, 50, 50); /* soft red for errors */
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+/* Label block display */
+label {
+    display: block;
+}
+
+/* Hidden elements class */
+.hidden {
+    display: none;
+}
+
+/* Character count styling */
+.char-count {
+    color: rgb(120, 120, 120); /* medium gray */
+}
+
+/* Tables styling */
+table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+/* Table rows and cells padding */
+tr, td, th {
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+}
+
+/* Table header styling */
+th {
+    background-color: rgb(120, 120, 180); /* muted professional blue */
+    color: rgb(245, 245, 250); /* off-white text */
+}
+
+/* Table rows styling */
+tr {
+    border: 2px solid rgb(200, 200, 200); /* light gray border */
+}
+
+/* Even table rows alternate color */
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245); /* very light gray */
+    color: rgb(50, 50, 50);
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(100, 100, 160); /* dark soft blue */
+}
+
+/* Login button for homepage and other pages */
+.login-button {
+    display: inline-block;
+    background-color: rgb(230, 230, 250); /* soft lavender */
+    color: rgb(50, 50, 90); /* dark bluish text */
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for login button */
+.login-button:hover {
+    background-color: rgb(200, 200, 240);
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(230, 230, 250); /* soft lavender background */
+    color: rgb(50, 50, 90); /* dark bluish text */
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
